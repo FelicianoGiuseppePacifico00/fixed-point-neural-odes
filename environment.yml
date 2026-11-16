@@ -1,0 +1,14 @@
+# Environment used for the results of the paper (CUDA 12.6 build of PyTorch).
+name: fpnode
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - numpy=1.26.4
+  - matplotlib=3.9.2
+  - pytest
+  - notebook
+  - pip
+  - pip:
+      - torch==2.7.1
+      - -e .

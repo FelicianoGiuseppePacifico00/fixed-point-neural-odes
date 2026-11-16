@@ -1,0 +1,17 @@
+penalty selection (geometric mean of the best validation MSE over seeds [0, 1, 2]): lambda=0.01: 8.395e-06, lambda=0.1: 5.805e-06, lambda=1: 8.043e-06, lambda=10: 1.158e-04 (dropped before convergence) -> 0.1
+true flow: final counts [0, 314, 186, 0], max distance from the end equilibrium at t=30: 2.9e-07
+qr           lam=0: val 5.65e-09 | traj t<=10 9.98e-05 | traj 10<t<=30 5.58e-06 | t=30 3.41e-06 t=100 3.41e-06 | outcome acc 1.0000 | grid box 4.98e-01 IC box 6.19e-02 near data 1.89e-01 | local 2.87e-03 | r_fp 2.7e-06 | jac max 1.21e-01 | eq displ max 3.5e-06 | steps 270500, converged 10/10
+    (0,0)  train obs within 0.25:  0.02%  |F(x_bar)| 1.7e-06  local 6.66e-03  jac 1.13e-01  displacement 7.3e-07  eig signs ok 10/10
+    (0,2)  train obs within 0.25: 42.28%  |F(x_bar)| 1.9e-06  local 1.85e-04  jac 2.67e-03  displacement 1.6e-06  eig signs ok 10/10
+    (3,0)  train obs within 0.25: 20.16%  |F(x_bar)| 1.7e-06  local 1.21e-03  jac 1.24e-02  displacement 1.8e-06  eig signs ok 10/10
+    (1,1)  train obs within 0.25:  3.55%  |F(x_bar)| 1.8e-06  local 1.36e-04  jac 8.58e-04  displacement 2.6e-06  eig signs ok 10/10
+free_mlp     lam=0: val 8.44e-06 | traj t<=10 5.71e-03 | traj 10<t<=30 9.39e-04 | t=30 7.37e-04 t=100 7.37e-04 | outcome acc 0.9986 | grid box 3.40e+00 IC box 1.67e+00 near data 1.75e+00 | local 3.05e-01 | r_fp 1.3e+00 | jac max 4.87e+00 | eq displ max 1.6e+00 | steps 479500, converged 10/10
+    (0,0)  train obs within 0.25:  0.02%  |F(x_bar)| 1.3e+00  local 7.42e-01  jac 4.87e+00  displacement 1.6e+00  eig signs ok 0/10
+    (0,2)  train obs within 0.25: 42.28%  |F(x_bar)| 8.9e-04  local 1.23e-02  jac 1.09e-01  displacement 5.3e-04  eig signs ok 10/10
+    (3,0)  train obs within 0.25: 20.16%  |F(x_bar)| 1.4e-03  local 1.25e-01  jac 1.18e+00  displacement 1.2e-03  eig signs ok 10/10
+    (1,1)  train obs within 0.25:  3.55%  |F(x_bar)| 3.6e-03  local 1.05e-02  jac 5.01e-02  displacement 3.2e-03  eig signs ok 10/10
+penalty_mlp  lam=0.1: val 7.74e-06 | traj t<=10 5.40e-03 | traj 10<t<=30 5.11e-04 | t=30 3.76e-04 t=100 3.76e-04 | outcome acc 0.9982 | grid box 3.62e+00 IC box 1.77e+00 near data 1.88e+00 | local 1.33e-01 | r_fp 6.3e-04 | jac max 4.56e+00 | eq displ max 1.1e-03 | steps 1034000, converged 10/10
+    (0,0)  train obs within 0.25:  0.02%  |F(x_bar)| 1.5e-04  local 3.09e-01  jac 4.43e+00  displacement 1.0e-04  eig signs ok 1/10
+    (0,2)  train obs within 0.25: 42.28%  |F(x_bar)| 4.2e-04  local 8.52e-03  jac 8.90e-02  displacement 3.1e-04  eig signs ok 10/10
+    (3,0)  train obs within 0.25: 20.16%  |F(x_bar)| 3.7e-04  local 1.01e-01  jac 1.04e+00  displacement 5.0e-04  eig signs ok 10/10
+    (1,1)  train obs within 0.25:  3.55%  |F(x_bar)| 4.5e-04  local 1.29e-02  jac 1.03e-01  displacement 8.2e-04  eig signs ok 10/10

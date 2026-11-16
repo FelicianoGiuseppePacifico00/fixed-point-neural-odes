@@ -1,0 +1,19 @@
+device: cpu
+N_DATA=50000 model=aug_mlp param=0.5 seed=1 n_fit=40000 n_copies=40000 bs=500 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[aug_mlp_n50000_rho0.5_seed1] step 50000 lr=1.0e-03 val=1.083e-04 grid_rmse=1.541e-02 best_step=50000
+[aug_mlp_n50000_rho0.5_seed1] step 100000 lr=1.0e-03 val=4.383e-05 grid_rmse=9.801e-03 best_step=95000
+[aug_mlp_n50000_rho0.5_seed1] step 150000 lr=2.5e-04 val=2.533e-05 grid_rmse=7.440e-03 best_step=148000
+[aug_mlp_n50000_rho0.5_seed1] step 200000 lr=2.5e-04 val=1.848e-05 grid_rmse=6.366e-03 best_step=198000
+[aug_mlp_n50000_rho0.5_seed1] step 250000 lr=1.3e-04 val=1.316e-05 grid_rmse=5.326e-03 best_step=246000
+[aug_mlp_n50000_rho0.5_seed1] step 300000 lr=1.3e-04 val=1.273e-05 grid_rmse=5.246e-03 best_step=291000
+[aug_mlp_n50000_rho0.5_seed1] step 350000 lr=1.3e-04 val=9.881e-06 grid_rmse=4.609e-03 best_step=344000
+[aug_mlp_n50000_rho0.5_seed1] step 400000 lr=6.3e-05 val=9.626e-06 grid_rmse=4.526e-03 best_step=399000
+[aug_mlp_n50000_rho0.5_seed1] step 450000 lr=6.3e-05 val=7.924e-06 grid_rmse=4.159e-03 best_step=443000
+[aug_mlp_n50000_rho0.5_seed1] step 500000 lr=3.1e-05 val=7.236e-06 grid_rmse=3.981e-03 best_step=492000
+[aug_mlp_n50000_rho0.5_seed1] step 550000 lr=1.6e-05 val=6.635e-06 grid_rmse=3.782e-03 best_step=549000
+[aug_mlp_n50000_rho0.5_seed1] step 600000 lr=1.6e-05 val=6.485e-06 grid_rmse=3.735e-03 best_step=599000
+[aug_mlp_n50000_rho0.5_seed1] step 650000 lr=1.6e-05 val=6.187e-06 grid_rmse=3.651e-03 best_step=648000
+[aug_mlp_n50000_rho0.5_seed1] step 700000 lr=7.8e-06 val=6.059e-06 grid_rmse=3.608e-03 best_step=690000
+[aug_mlp_n50000_rho0.5_seed1] step 750000 lr=2.0e-06 val=5.913e-06 grid_rmse=3.574e-03 best_step=744000
+[aug_mlp_n50000_rho0.5_seed1] step 800000 lr=2.0e-06 val=5.872e-06 grid_rmse=3.565e-03 best_step=789000
+final {'grid_rmse': 0.0035639626439660788, 'grid_max_error': 0.06900448352098465, 'grid_mean_error': 0.0024850796908140182, 'fixed_point_residual': 0.00021961146558169276, 'train_mse': 2.9210079737822524e-06, 'val_mse': 5.8678768575191494e-06, 'test_rmse': 0.003454742720350623} best_step=789000 stop_step=800000 (min_lr) 17.2 min

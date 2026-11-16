@@ -1,0 +1,11 @@
+device: cuda:1
+[seed 1] epoch 1/400 fp_res=4.429e-07 grid_rmse=8.1519e+00
+[seed 1] epoch 50/400 fp_res=1.634e-06 grid_rmse=8.3833e-02
+[seed 1] epoch 100/400 fp_res=3.209e-06 grid_rmse=2.2798e-02
+[seed 1] epoch 150/400 fp_res=3.231e-06 grid_rmse=9.9732e-03
+[seed 1] epoch 200/400 fp_res=6.605e-06 grid_rmse=6.2138e-03
+[seed 1] epoch 250/400 fp_res=3.191e-06 grid_rmse=4.8531e-03
+[seed 1] epoch 300/400 fp_res=1.932e-06 grid_rmse=4.2917e-03
+[seed 1] epoch 350/400 fp_res=5.523e-06 grid_rmse=3.9422e-03
+[seed 1] epoch 400/400 fp_res=6.985e-06 grid_rmse=3.8806e-03
+[seed 1] final {'grid_mse': 1.505890759290196e-05, 'grid_rmse': 0.003880580831899003, 'max_error': 0.10077692568302155, 'mean_error': 0.002801879309117794, 'fixed_point_residual': 6.985259915381903e-06} train 1.90 min

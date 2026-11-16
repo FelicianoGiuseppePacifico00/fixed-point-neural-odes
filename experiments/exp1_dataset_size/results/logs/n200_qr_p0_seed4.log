@@ -1,0 +1,60 @@
+device: cpu
+N_DATA=200 model=qr param=0 seed=4 n_fit=160 n_copies=0 bs=160 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[qr_n200_lam0_seed4] step 50000 lr=1.0e-03 val=1.295e-04 grid_rmse=1.320e-02 best_step=50000
+[qr_n200_lam0_seed4] step 100000 lr=5.0e-04 val=9.728e-05 grid_rmse=1.172e-02 best_step=78000
+[qr_n200_lam0_seed4] step 150000 lr=6.3e-05 val=8.186e-05 grid_rmse=1.075e-02 best_step=148000
+[qr_n200_lam0_seed4] step 200000 lr=6.3e-05 val=7.386e-05 grid_rmse=1.010e-02 best_step=199000
+[qr_n200_lam0_seed4] step 250000 lr=6.3e-05 val=6.502e-05 grid_rmse=9.550e-03 best_step=243000
+[qr_n200_lam0_seed4] step 300000 lr=6.3e-05 val=5.946e-05 grid_rmse=9.145e-03 best_step=294000
+[qr_n200_lam0_seed4] step 350000 lr=3.1e-05 val=5.560e-05 grid_rmse=8.838e-03 best_step=349000
+[qr_n200_lam0_seed4] step 400000 lr=3.1e-05 val=5.205e-05 grid_rmse=8.575e-03 best_step=397000
+[qr_n200_lam0_seed4] step 450000 lr=3.1e-05 val=4.886e-05 grid_rmse=8.348e-03 best_step=450000
+[qr_n200_lam0_seed4] step 500000 lr=1.6e-05 val=4.600e-05 grid_rmse=8.150e-03 best_step=500000
+[qr_n200_lam0_seed4] step 550000 lr=1.6e-05 val=4.389e-05 grid_rmse=7.990e-03 best_step=548000
+[qr_n200_lam0_seed4] step 600000 lr=1.6e-05 val=4.195e-05 grid_rmse=7.844e-03 best_step=599000
+[qr_n200_lam0_seed4] step 650000 lr=1.6e-05 val=3.998e-05 grid_rmse=7.708e-03 best_step=650000
+[qr_n200_lam0_seed4] step 700000 lr=1.6e-05 val=3.835e-05 grid_rmse=7.586e-03 best_step=700000
+[qr_n200_lam0_seed4] step 750000 lr=1.6e-05 val=3.687e-05 grid_rmse=7.475e-03 best_step=750000
+[qr_n200_lam0_seed4] step 800000 lr=1.6e-05 val=3.556e-05 grid_rmse=7.373e-03 best_step=800000
+[qr_n200_lam0_seed4] step 850000 lr=1.6e-05 val=3.446e-05 grid_rmse=7.281e-03 best_step=848000
+[qr_n200_lam0_seed4] step 900000 lr=1.6e-05 val=3.329e-05 grid_rmse=7.190e-03 best_step=899000
+[qr_n200_lam0_seed4] step 950000 lr=1.6e-05 val=3.238e-05 grid_rmse=7.109e-03 best_step=948000
+[qr_n200_lam0_seed4] step 1000000 lr=1.6e-05 val=3.141e-05 grid_rmse=7.030e-03 best_step=999000
+[qr_n200_lam0_seed4] step 1050000 lr=1.6e-05 val=3.056e-05 grid_rmse=6.956e-03 best_step=1043000
+[qr_n200_lam0_seed4] step 1100000 lr=1.6e-05 val=2.972e-05 grid_rmse=6.885e-03 best_step=1096000
+[qr_n200_lam0_seed4] step 1150000 lr=1.6e-05 val=2.910e-05 grid_rmse=6.822e-03 best_step=1147000
+[qr_n200_lam0_seed4] step 1200000 lr=7.8e-06 val=2.827e-05 grid_rmse=6.756e-03 best_step=1200000
+[qr_n200_lam0_seed4] step 1250000 lr=7.8e-06 val=2.776e-05 grid_rmse=6.707e-03 best_step=1242000
+[qr_n200_lam0_seed4] step 1300000 lr=3.9e-06 val=2.731e-05 grid_rmse=6.670e-03 best_step=1300000
+[qr_n200_lam0_seed4] step 1350000 lr=3.9e-06 val=2.684e-05 grid_rmse=6.633e-03 best_step=1350000
+[qr_n200_lam0_seed4] step 1400000 lr=3.9e-06 val=2.645e-05 grid_rmse=6.597e-03 best_step=1399000
+[qr_n200_lam0_seed4] step 1450000 lr=3.9e-06 val=2.603e-05 grid_rmse=6.561e-03 best_step=1450000
+[qr_n200_lam0_seed4] step 1500000 lr=3.9e-06 val=2.563e-05 grid_rmse=6.523e-03 best_step=1500000
+[qr_n200_lam0_seed4] step 1550000 lr=3.9e-06 val=2.531e-05 grid_rmse=6.489e-03 best_step=1545000
+[qr_n200_lam0_seed4] step 1600000 lr=3.9e-06 val=2.494e-05 grid_rmse=6.453e-03 best_step=1599000
+[qr_n200_lam0_seed4] step 1650000 lr=3.9e-06 val=2.459e-05 grid_rmse=6.417e-03 best_step=1649000
+[qr_n200_lam0_seed4] step 1700000 lr=3.9e-06 val=2.430e-05 grid_rmse=6.383e-03 best_step=1695000
+[qr_n200_lam0_seed4] step 1750000 lr=2.0e-06 val=2.405e-05 grid_rmse=6.361e-03 best_step=1750000
+[qr_n200_lam0_seed4] step 1800000 lr=2.0e-06 val=2.383e-05 grid_rmse=6.340e-03 best_step=1798000
+[qr_n200_lam0_seed4] step 1850000 lr=2.0e-06 val=2.360e-05 grid_rmse=6.320e-03 best_step=1850000
+[qr_n200_lam0_seed4] step 1900000 lr=2.0e-06 val=2.338e-05 grid_rmse=6.299e-03 best_step=1900000
+[qr_n200_lam0_seed4] step 1950000 lr=2.0e-06 val=2.319e-05 grid_rmse=6.278e-03 best_step=1949000
+[qr_n200_lam0_seed4] step 2000000 lr=2.0e-06 val=2.297e-05 grid_rmse=6.257e-03 best_step=2000000
+final {'grid_rmse': 0.006257054395973682, 'grid_max_error': 0.1734342873096466, 'grid_mean_error': 0.0018557374132797122, 'fixed_point_residual': 5.210550625633914e-06, 'train_mse': 1.4622160904309567e-08, 'val_mse': 2.2968670236878097e-05, 'test_rmse': 0.0058633326552808285} best_step=2000000 stop_step=2000000 (max_steps) 40.3 min
+device: cpu
+N_DATA=200 model=qr param=0 seed=4 n_fit=160 n_copies=0 bs=160 min_lr=1e-06 max_steps=6000000 resumed_at_step=2000000
+[qr_n200_lam0_seed4] step 2050000 lr=2.0e-06 val=2.277e-05 grid_rmse=6.236e-03 best_step=2050000
+[qr_n200_lam0_seed4] step 2100000 lr=2.0e-06 val=2.257e-05 grid_rmse=6.215e-03 best_step=2090000
+[qr_n200_lam0_seed4] step 2150000 lr=2.0e-06 val=2.239e-05 grid_rmse=6.194e-03 best_step=2149000
+[qr_n200_lam0_seed4] step 2200000 lr=2.0e-06 val=2.222e-05 grid_rmse=6.174e-03 best_step=2194000
+[qr_n200_lam0_seed4] step 2250000 lr=2.0e-06 val=2.203e-05 grid_rmse=6.152e-03 best_step=2250000
+[qr_n200_lam0_seed4] step 2300000 lr=2.0e-06 val=2.188e-05 grid_rmse=6.133e-03 best_step=2298000
+[qr_n200_lam0_seed4] step 2350000 lr=2.0e-06 val=2.168e-05 grid_rmse=6.112e-03 best_step=2350000
+[qr_n200_lam0_seed4] step 2400000 lr=2.0e-06 val=2.154e-05 grid_rmse=6.091e-03 best_step=2396000
+[qr_n200_lam0_seed4] step 2450000 lr=2.0e-06 val=2.136e-05 grid_rmse=6.070e-03 best_step=2450000
+[qr_n200_lam0_seed4] step 2500000 lr=2.0e-06 val=2.122e-05 grid_rmse=6.051e-03 best_step=2496000
+[qr_n200_lam0_seed4] step 2550000 lr=2.0e-06 val=2.105e-05 grid_rmse=6.030e-03 best_step=2550000
+[qr_n200_lam0_seed4] step 2600000 lr=2.0e-06 val=2.091e-05 grid_rmse=6.010e-03 best_step=2596000
+[qr_n200_lam0_seed4] step 2650000 lr=2.0e-06 val=2.076e-05 grid_rmse=5.990e-03 best_step=2646000
+[qr_n200_lam0_seed4] step 2700000 lr=2.0e-06 val=2.058e-05 grid_rmse=5.969e-03 best_step=2700000
+final {'grid_rmse': 0.005969439633190632, 'grid_max_error': 0.1656530797481537, 'grid_mean_error': 0.0017597947735339403, 'fixed_point_residual': 5.625400717690354e-06, 'train_mse': 1.1675304278924159e-08, 'val_mse': 2.0582330762408674e-05, 'test_rmse': 0.0055959648452699184} best_step=2700000 stop_step=2711000 (min_lr) 52.9 min

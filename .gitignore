@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Outputs of reproduce.py
+reproduced/
+
+# Only the checkpoints needed by the figures and the evaluations are versioned: the best-validation models
+# (*_best.pt), the Experiment 1 models of Fig. 2 and the trajectory data. Last-state checkpoints, stack
+# checkpoints and training snapshots are kept locally.
+*.pt
+!*_best.pt
+!experiments/exp1_fixed_epochs/results/cosine/qr_n50000_lam0_seed*.pt
+!experiments/appC_trajectories/results/data.pt
+**/snapshots/

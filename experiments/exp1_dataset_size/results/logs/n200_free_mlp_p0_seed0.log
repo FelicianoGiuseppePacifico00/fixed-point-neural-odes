@@ -1,0 +1,6 @@
+device: cpu
+N_DATA=200 model=free_mlp param=0 seed=0 n_fit=160 n_copies=0 bs=160 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[free_mlp_n200_lam0_seed0] step 50000 lr=1.0e-03 val=3.289e-03 grid_rmse=4.517e-02 best_step=50000
+[free_mlp_n200_lam0_seed0] step 100000 lr=2.5e-04 val=3.175e-03 grid_rmse=4.285e-02 best_step=76000
+[free_mlp_n200_lam0_seed0] step 150000 lr=1.6e-05 val=3.588e-03 grid_rmse=4.463e-02 best_step=76000
+final {'grid_rmse': 0.04309317469596863, 'grid_max_error': 1.1307297945022583, 'grid_mean_error': 0.011722532100975513, 'fixed_point_residual': 0.009052248671650887, 'train_mse': 2.6005186373367906e-05, 'val_mse': 0.0030845556408166885, 'test_rmse': 0.040860068053007126} best_step=76000 stop_step=186000 (min_lr) 2.2 min

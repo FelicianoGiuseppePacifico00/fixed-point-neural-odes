@@ -1,0 +1,18 @@
+device: cpu
+N_DATA=50000 model=aug_mlp param=0.5 seed=0 n_fit=40000 n_copies=40000 bs=500 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[aug_mlp_n50000_rho0.5_seed0] step 50000 lr=1.0e-03 val=1.421e-04 grid_rmse=1.634e-02 best_step=49000
+[aug_mlp_n50000_rho0.5_seed0] step 100000 lr=1.0e-03 val=1.729e-04 grid_rmse=1.873e-02 best_step=97000
+[aug_mlp_n50000_rho0.5_seed0] step 150000 lr=5.0e-04 val=3.125e-05 grid_rmse=7.662e-03 best_step=142000
+[aug_mlp_n50000_rho0.5_seed0] step 200000 lr=2.5e-04 val=1.976e-05 grid_rmse=6.047e-03 best_step=200000
+[aug_mlp_n50000_rho0.5_seed0] step 250000 lr=1.3e-04 val=1.570e-05 grid_rmse=5.422e-03 best_step=244000
+[aug_mlp_n50000_rho0.5_seed0] step 300000 lr=3.1e-05 val=1.488e-05 grid_rmse=5.238e-03 best_step=298000
+[aug_mlp_n50000_rho0.5_seed0] step 350000 lr=3.1e-05 val=1.338e-05 grid_rmse=4.990e-03 best_step=345000
+[aug_mlp_n50000_rho0.5_seed0] step 400000 lr=3.1e-05 val=1.234e-05 grid_rmse=4.813e-03 best_step=397000
+[aug_mlp_n50000_rho0.5_seed0] step 450000 lr=3.1e-05 val=1.151e-05 grid_rmse=4.657e-03 best_step=450000
+[aug_mlp_n50000_rho0.5_seed0] step 500000 lr=3.1e-05 val=1.113e-05 grid_rmse=4.563e-03 best_step=498000
+[aug_mlp_n50000_rho0.5_seed0] step 550000 lr=3.1e-05 val=1.019e-05 grid_rmse=4.411e-03 best_step=550000
+[aug_mlp_n50000_rho0.5_seed0] step 600000 lr=3.1e-05 val=9.605e-06 grid_rmse=4.260e-03 best_step=600000
+[aug_mlp_n50000_rho0.5_seed0] step 650000 lr=1.6e-05 val=9.144e-06 grid_rmse=4.160e-03 best_step=649000
+[aug_mlp_n50000_rho0.5_seed0] step 700000 lr=1.6e-05 val=8.970e-06 grid_rmse=4.125e-03 best_step=696000
+[aug_mlp_n50000_rho0.5_seed0] step 750000 lr=3.9e-06 val=8.697e-06 grid_rmse=4.048e-03 best_step=747000
+final {'grid_rmse': 0.004023672081530094, 'grid_max_error': 0.07138537615537643, 'grid_mean_error': 0.0029422040097415447, 'fixed_point_residual': 0.0005558267002925277, 'train_mse': 3.735952363058459e-06, 'val_mse': 8.516950905323029e-06, 'test_rmse': 0.0038967719301581383} best_step=769000 stop_step=780000 (min_lr) 16.3 min

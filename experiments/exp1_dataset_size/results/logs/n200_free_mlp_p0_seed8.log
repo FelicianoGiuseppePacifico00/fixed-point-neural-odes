@@ -1,0 +1,23 @@
+device: cpu
+N_DATA=200 model=free_mlp param=0 seed=8 n_fit=160 n_copies=0 bs=160 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[free_mlp_n200_lam0_seed8] step 50000 lr=1.0e-03 val=1.325e-04 grid_rmse=2.093e-02 best_step=50000
+[free_mlp_n200_lam0_seed8] step 100000 lr=1.0e-03 val=6.836e-05 grid_rmse=1.409e-02 best_step=100000
+[free_mlp_n200_lam0_seed8] step 150000 lr=1.0e-03 val=5.187e-05 grid_rmse=1.176e-02 best_step=150000
+[free_mlp_n200_lam0_seed8] step 200000 lr=1.0e-03 val=4.297e-05 grid_rmse=1.059e-02 best_step=199000
+[free_mlp_n200_lam0_seed8] step 250000 lr=2.5e-04 val=3.702e-05 grid_rmse=9.951e-03 best_step=234000
+[free_mlp_n200_lam0_seed8] step 300000 lr=6.3e-05 val=3.293e-05 grid_rmse=9.582e-03 best_step=287000
+[free_mlp_n200_lam0_seed8] step 350000 lr=6.3e-05 val=2.945e-05 grid_rmse=9.334e-03 best_step=348000
+[free_mlp_n200_lam0_seed8] step 400000 lr=3.1e-05 val=2.696e-05 grid_rmse=9.182e-03 best_step=378000
+[free_mlp_n200_lam0_seed8] step 450000 lr=7.8e-06 val=2.506e-05 grid_rmse=9.088e-03 best_step=450000
+[free_mlp_n200_lam0_seed8] step 500000 lr=7.8e-06 val=2.357e-05 grid_rmse=9.032e-03 best_step=491000
+[free_mlp_n200_lam0_seed8] step 550000 lr=3.9e-06 val=2.232e-05 grid_rmse=8.988e-03 best_step=531000
+[free_mlp_n200_lam0_seed8] step 600000 lr=2.0e-06 val=2.145e-05 grid_rmse=8.952e-03 best_step=600000
+[free_mlp_n200_lam0_seed8] step 650000 lr=2.0e-06 val=2.065e-05 grid_rmse=8.925e-03 best_step=650000
+[free_mlp_n200_lam0_seed8] step 700000 lr=2.0e-06 val=2.001e-05 grid_rmse=8.908e-03 best_step=700000
+[free_mlp_n200_lam0_seed8] step 750000 lr=2.0e-06 val=1.919e-05 grid_rmse=8.884e-03 best_step=750000
+[free_mlp_n200_lam0_seed8] step 800000 lr=2.0e-06 val=1.848e-05 grid_rmse=8.864e-03 best_step=799000
+[free_mlp_n200_lam0_seed8] step 850000 lr=2.0e-06 val=1.793e-05 grid_rmse=8.852e-03 best_step=850000
+[free_mlp_n200_lam0_seed8] step 900000 lr=2.0e-06 val=1.749e-05 grid_rmse=8.841e-03 best_step=900000
+[free_mlp_n200_lam0_seed8] step 950000 lr=2.0e-06 val=1.715e-05 grid_rmse=8.824e-03 best_step=950000
+[free_mlp_n200_lam0_seed8] step 1000000 lr=2.0e-06 val=1.684e-05 grid_rmse=8.803e-03 best_step=999000
+final {'grid_rmse': 0.008793778717517853, 'grid_max_error': 0.3170570433139801, 'grid_mean_error': 0.002762697171419859, 'fixed_point_residual': 0.0030904689338058233, 'train_mse': 8.474715286865831e-07, 'val_mse': 1.6691692871972917e-05, 'test_rmse': 0.008115123026072979} best_step=1011000 stop_step=1022000 (min_lr) 13.8 min

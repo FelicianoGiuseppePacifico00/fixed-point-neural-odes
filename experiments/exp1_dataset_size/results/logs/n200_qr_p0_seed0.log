@@ -1,0 +1,5 @@
+device: cpu
+N_DATA=200 model=qr param=0 seed=0 n_fit=160 n_copies=0 bs=160 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[qr_n200_lam0_seed0] step 50000 lr=1.3e-04 val=6.739e-04 grid_rmse=1.936e-02 best_step=15000
+[qr_n200_lam0_seed0] step 100000 lr=7.8e-06 val=8.632e-04 grid_rmse=2.086e-02 best_step=15000
+final {'grid_rmse': 0.01884864643216133, 'grid_max_error': 0.3290897607803345, 'grid_mean_error': 0.008380523882806301, 'fixed_point_residual': 1.239576022271649e-06, 'train_mse': 1.3068379485048353e-05, 'val_mse': 0.00017917907098308206, 'test_rmse': 0.018059788271784782} best_step=15000 stop_step=125000 (min_lr) 2.1 min

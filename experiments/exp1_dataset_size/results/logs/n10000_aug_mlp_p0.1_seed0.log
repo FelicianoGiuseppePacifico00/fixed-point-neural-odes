@@ -1,0 +1,17 @@
+device: cpu
+N_DATA=10000 model=aug_mlp param=0.1 seed=0 n_fit=8000 n_copies=888 bs=500 min_lr=1e-06 max_steps=2000000 resumed_at_step=0
+[aug_mlp_n10000_rho0.1_seed0] step 50000 lr=1.0e-03 val=4.707e-05 grid_rmse=1.029e-02 best_step=48000
+[aug_mlp_n10000_rho0.1_seed0] step 100000 lr=1.0e-03 val=2.057e-05 grid_rmse=6.823e-03 best_step=98000
+[aug_mlp_n10000_rho0.1_seed0] step 150000 lr=5.0e-04 val=2.547e-05 grid_rmse=7.418e-03 best_step=147000
+[aug_mlp_n10000_rho0.1_seed0] step 200000 lr=2.5e-04 val=9.883e-06 grid_rmse=4.684e-03 best_step=194000
+[aug_mlp_n10000_rho0.1_seed0] step 250000 lr=1.3e-04 val=7.306e-06 grid_rmse=4.072e-03 best_step=248000
+[aug_mlp_n10000_rho0.1_seed0] step 300000 lr=6.3e-05 val=6.231e-06 grid_rmse=3.769e-03 best_step=300000
+[aug_mlp_n10000_rho0.1_seed0] step 350000 lr=3.1e-05 val=5.629e-06 grid_rmse=3.580e-03 best_step=349000
+[aug_mlp_n10000_rho0.1_seed0] step 400000 lr=3.1e-05 val=5.273e-06 grid_rmse=3.482e-03 best_step=400000
+[aug_mlp_n10000_rho0.1_seed0] step 450000 lr=3.1e-05 val=4.954e-06 grid_rmse=3.358e-03 best_step=448000
+[aug_mlp_n10000_rho0.1_seed0] step 500000 lr=3.1e-05 val=5.010e-06 grid_rmse=3.370e-03 best_step=492000
+[aug_mlp_n10000_rho0.1_seed0] step 550000 lr=1.6e-05 val=4.362e-06 grid_rmse=3.169e-03 best_step=550000
+[aug_mlp_n10000_rho0.1_seed0] step 600000 lr=7.8e-06 val=4.283e-06 grid_rmse=3.153e-03 best_step=599000
+[aug_mlp_n10000_rho0.1_seed0] step 650000 lr=3.9e-06 val=4.123e-06 grid_rmse=3.077e-03 best_step=650000
+[aug_mlp_n10000_rho0.1_seed0] step 700000 lr=2.0e-06 val=4.088e-06 grid_rmse=3.071e-03 best_step=692000
+final {'grid_rmse': 0.003055315464735031, 'grid_max_error': 0.06301349401473999, 'grid_mean_error': 0.002118993317708373, 'fixed_point_residual': 0.0016776068368926644, 'train_mse': 3.5996858154622207e-06, 'val_mse': 4.052500706166029e-06, 'test_rmse': 0.002960223238915205} best_step=714000 stop_step=725000 (min_lr) 14.3 min
